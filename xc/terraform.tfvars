@@ -1,13 +1,13 @@
 #XC Global
-api_url = "https://<Your Tenant>.console.ves.volterra.io/api"
-xc_tenant = "Your tenant name"
-xc_namespace = "Your XC namespace"
+api_url = "https://treino-ufahspac.console.ves.volterra.io/api"
+xc_tenant = "treino.console.ves.volterra.io"
+xc_namespace = "automation-waap-waf"
 
 #XC LB
-app_domain = "Your App Domain"
+app_domain = "q4hyb.f5-hyd-xcdemo.com"
 
 #XC WAF
-xc_waf_blocking = false
+xc_waf_blocking = true
 
 # XC Data Guard
 xc_data_guard = false
@@ -39,10 +39,10 @@ fall_through_mode_allow = false
 xc_api_val_custom = false 
 
 #XC Bot Defense
-xc_bot_def = false
+xc_bot_def = true
 
 #XC DDoS
-xc_ddos_pro = false
+xc_ddos_pro = true
 
 #XC Malicious User Detection
 xc_mud = false
