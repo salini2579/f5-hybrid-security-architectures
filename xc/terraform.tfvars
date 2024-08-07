@@ -1,6 +1,6 @@
 #XC Global
-api_url = "https://treino-ufahspac.console.ves.volterra.io/api"
-xc_tenant = "treino.console.ves.volterra.io"
+api_url = "https://treino.console.ves.volterra.io/api"
+xc_tenant = "treino-ufahspac"
 xc_namespace = "automation-waap-waf"
 
 #XC LB
