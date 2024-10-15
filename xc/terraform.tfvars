@@ -1,13 +1,13 @@
 #XC Global
-api_url = "https://<Your Tenant>.console.ves.volterra.io/api"
-xc_tenant = "Your tenant name"
-xc_namespace = "Your XC namespace"
+api_url = "https://treino.console.ves.volterra.io/api"
+xc_tenant = "treino-ufahspac"
+xc_namespace = "ce-re-sites"
 
 #XC LB
-app_domain = "Your App Domain"
+app_domain = "h3test.f5-hyd-xcdemo.com"
 
 #XC WAF
-xc_waf_blocking = false
+xc_waf_blocking = true
 
 # XC Data Guard
 xc_data_guard = false
@@ -17,9 +17,9 @@ xc_app_type = []
 xc_multi_lb = false
 
 #XC API Protection and Discovery
-xc_api_disc = false
-xc_api_pro = false
-xc_api_spec = []
+xc_api_disc = true
+xc_api_pro = true
+xc_api_spec = ["https://treino.console.ves.volterra.io/api/object_store/namespaces/default/stored_objects/swagger/brewz-oas/v1-24-10-14"]
 #Enable API schema validation
 xc_api_val = false
 #Enable API schema validation on all endpoints
@@ -45,7 +45,7 @@ xc_bot_def = false
 xc_ddos_pro = false
 
 #XC Malicious User Detection
-xc_mud = false
+xc_mud = true
 
 # pool and LB inputs
 k8s_pool = false
