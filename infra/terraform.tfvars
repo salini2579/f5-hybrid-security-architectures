@@ -1,5 +1,5 @@
 #Global
-project_prefix = "h3-salini"
+project_prefix = "hybrid3"
 resource_owner = "salini"
 
 #AWS INFRA
