@@ -1,10 +1,10 @@
 #XC Global
 api_url = "https://treino.console.ves.volterra.io/api"
 xc_tenant = "treino-ufahspac"
-xc_namespace = "default"
+xc_namespace = "ce-re-sites"
 
 #XC LB
-app_domain = "h3test.f5-hyd-xcdemo.com"
+app_domain = "hybrid3.f5-hyd-xcdemo.com"
 
 #XC WAF
 xc_waf_blocking = true
