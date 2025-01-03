@@ -12,6 +12,6 @@ controller:
   readyStatus:
     initialDelaySeconds: 30
   serviceAccount:
-    imagePullSecretName: regcred 
+    imagePullSecretName: regcred
 prometheus:
   create: true
