@@ -274,7 +274,7 @@ resource "volterra_http_loadbalancer" "lb_https" {
           name = format("%s-apip-deny-rule-%s", local.project_prefix, local.build_suffix)
         }
         action {
-          deny = true
+          deny = false
         }
         base_path = "/api"
         api_group = join("-", ["ves-io-api-def", volterra_api_definition.api-def[0].name, "all-operations"])
