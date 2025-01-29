@@ -1,10 +1,10 @@
 #XC Global
 api_url = "https://treino.console.ves.volterra.io/api"
 xc_tenant = "treino-ufahspac"
-xc_namespace = "hybrid-testing"
+xc_namespace = "normal"
 
 #XC LB
-app_domain = "testhybrid.f5-hyd-xcdemo.com"
+app_domain = "testlb.f5-hyd-xcdemo.com"
 
 #XC WAF
 xc_waf_blocking = true
@@ -19,7 +19,7 @@ xc_multi_lb = false
 #XC API Protection and Discovery
 xc_api_disc = true
 xc_api_pro = true
-xc_api_spec = ["https://treino.console.ves.volterra.io/api/object_store/namespaces/hybrid-testing/stored_objects/swagger/brewz-oas/v1-25-01-20"]
+xc_api_spec = ["https://treino.console.ves.volterra.io/api/object_store/namespaces/normal/stored_objects/swagger/brewz-oas/v1-25-01-29"]
 #Enable API schema validation
 xc_api_val = false
 #Enable API schema validation on all endpoints
